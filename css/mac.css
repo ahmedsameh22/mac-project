@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+body{
+    background-color: rgb(15, 10, 10);
+}
+header{
+    margin: 20px;
+    padding: 10px 200px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.nav-bar ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+.nav-bar li{
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+
+}
+
+.nav-bar li:hover{
+    color: rgb(107, 103, 105);
+  }
+
+section{
+    margin: 5px;
+    padding:  10px;
+}
+
+.main-contant{
+    width: 100%;
+    height: 75vh;
+
+   background-image: url(../imges/mac.png) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.manu{
+    display: grid;
+    grid-template-columns: 2fr  1.2fr 1.5fr 1.5fr ;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(67, 77, 95);
+    color: white;
+    font-family: 'Poppins', 'sans-seri';
+    border-radius: 5px;
+
+    
+}
+
+.manu .logo{
+background-color: rgb(66, 63, 95);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
+transition: 0.8s ease;
+border-radius: 2px;
+}
+
+
+.manu .logo i{
+    font-size: xx-large;
+    margin: 9px;
+    padding:2px;
+
+}
+
+#logo-mac {
+    background-color: #6f2023;
+}
+#logo-mac i{
+    color: yellow;
+    background-color: red;
+    padding:2px;
+
+}
+.manu a:hover{
+    color: rgb(129, 121, 121);
+    transform: scale(1.05);
+}
+
+.main-contant{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+}
+.form-login{
+    min-width: 300px;
+    min-height: 400px;
+    background-color: #D6E2E5;
+    border-radius: 1em;
+    margin-right:2em ;
+    padding: 5px 0px;
+    opacity: 0.88;
+}
+.form-login .info{
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 2fr 0.5fr 2fr 0.5fr 2fr 0.5fr ;
+    gap: 15px;
+    margin: 0 1em; 
+    font-weight: 800; 
+    font-size: 1em;
+    font-family: 'Poppins', 'sans-seri';
+
+
+}
+.form-login h2{
+    color: #C8161D;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+}
+#type-for-login{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px; 
+    justify-content: center;
+}
+#remeper-me{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+#remeper-me input{
+    width: 28px;
+    height: 23px;}
+.form-login p{
+    text-align: center;
+}
+.form-login input{
+    padding-left: 10px;
+}
+ .main-btn{
+    padding-left: 0px;
+    background-color:  #C8161D;;
+    text-align: center;
+    font-family: 'Poppins', 'sans-seri';
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+    font-size: 22px;
+    opacity: 1;
+}
+
+.short-menu{
+    display: grid;
+    grid-template-columns: 1fr 1.6fr 1fr;
+    gap: 20px;
+
+}
+.short-menu .menu-img{
+    min-width: 30%;
+    background-color: #D6E2E5;
+    overflow: hidden;
+    transition: 0.8s ease;
+    border-radius: 2em;
+}
+
+.short-menu .menu-img:hover{
+    transform: scale(1.1);
+}
+
+.short-menu .menu-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.start-order{
+    margin-top: 3em;
+}
+.start-order .title{
+    color: rgb(139, 12, 12);
+    font-family: 'Poppins', 'sans-seri';
+    font-weight: bold;
+    font-family: 'Lobster', 'cursive';
+    font-size: 1.5em;
+}
+.main-road{
+    margin-top: 2em;
+    background-color: rgb(107, 103, 105);
+    min-height: 60vh;
+    background-image: url(../imges/road.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 0.2em;
+
+
+}
+.main-road .main-btn:hover{
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+}
+
+.start-order .main-btn{
+    padding: 35px 100px;
+    border-radius: 1em;
+
+    
+}
+@media (max-width:1023px){
+
+header{
+margin: 2px;
+padding: 1px 5px;
+}
+section{
+    margin: 2px;
+    padding: 1px 5px;
+    
+}
+.manu{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr);
+}
+.short-menu{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    
+}
+
+.nav-bar{
+    display: flex;
+    flex-flow: column ;
+   align-items: center;
+}
+
+.main-contant{
+    display: flex;
+    justify-content: center;
+}
+.form-login{
+    margin-right:0 ;
+}
+
+}
